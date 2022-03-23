@@ -3,7 +3,7 @@ class Order:
         self.items = []
         self.quantities = []
         self.prices = []
-        self.status = "open"
+        self.status = "not_paid"
 
     def add_online_class(self, name, quantity, price):
         self.items.append(name)
