@@ -1,6 +1,3 @@
-Host 127.0.0.1
-    HostName 127.0.0.1
+Host bd3-127-0-0-1.ta-1.free.amazingamz.com
+    HostName bd3-127-0-0-1.ta-1.free.amazingamz.com
     User someone_knowledgeable
-
-
- 
