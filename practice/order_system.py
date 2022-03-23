@@ -1,6 +1,4 @@
 class Order:
-    """Very advanced order system"""
-
     def __init__(self):
         self.items = []
         self.quantities = []
