@@ -1,12 +1,13 @@
 """very advanced age reader!!!"""
 
 
-def first_step(name):
-    print(f"Hello my name is {name}")
+def first_step():
+    return input("Enter your name: ")
 
 
-def second_step(age):
-    print(f"My age is {age}")
+def second_step():
+    line = input("My age is: ")
+    return int(line)
 
 
 def final_step(name, age):
@@ -16,11 +17,9 @@ def final_step(name, age):
 
 
 def main():
-    name = "lixing"
-    age = 17
+    name = first_step()
+    age = second_step()
 
-    first_step(name)
-    second_step(age)
     final_step(name, age)
 
 
