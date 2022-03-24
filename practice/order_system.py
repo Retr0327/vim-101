@@ -33,7 +33,7 @@ class Order:
 
 order = Order()
 order.add_online_class("Ray's udemy class", 1, 50000)
-order.add_online_class("Willy's class", 1, 50000)
+order.add_online_class("Willy's codecademy class", 1, 50000)
 order.add_online_class("Prof. Hsieh's DataCamp class", 1, 99999)
 
 print(order.total_price())
