@@ -25,11 +25,14 @@ class Order:
             print(f"Verifying security code: {security_code}")
             self.status = "paid"
 
+        else:
+            raise Exception(f"Unknown payment type: {payment_type}")
+
 
 order = Order()
-order.add_online_class("Ray's udemy class", 50000)
-order.add_online_class("Willy's codecademy class", 50000)
-order.add_online_class("Prof. Hsieh's DataCamp class", 99999)
+order.add_online_class("Ray's udemy class", 1, 50000)
+order.add_online_class("Willy's codecademy class", 1, 50000)
+order.add_online_class("Prof. Hsieh's DataCamp class", 1, 99999)
 
 print(order.total_price())
 order.pay("debit", "123456")
