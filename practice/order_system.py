@@ -25,9 +25,6 @@ class Order:
             print(f"Verifying security code: {security_code}")
             self.status = "paid"
 
-        else:
-            raise Exception(f"Unknown payment type: {payment_type}")
-
 
 order = Order()
 order.add_online_class("Ray's udemy class", 50000)
