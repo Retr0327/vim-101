@@ -1,3 +1,3 @@
-# vim-101
+# **Vim-101
 
-此 repo 為提供給領域標竿微型工作坊 3/26 課程的參加者
+This repository for the [2022 HoCoML workshop](https://langsci-edu.github.io/HoCoML/) participants teaches the fundamentals of Vim. 
